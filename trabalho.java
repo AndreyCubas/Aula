@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class Trabalho {
+public class trabalho {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -49,9 +49,9 @@ public class Trabalho {
                     System.out.println("Soma de todos os valores do vetor: " + somaTodos(vetor));
                     break;
                 case 6:
-                    System.out.print("Índice de início (inclusive): ");
+                    System.out.print("Indice de início: ");
                     int inicio = scanner.nextInt();
-                    System.out.print("Índice de término (inclusive): ");
+                    System.out.print("Indice de término: ");
                     int termino = scanner.nextInt();
                     if (inicio < termino && inicio >= 0 && termino < vetor.length) {
                         System.out.println("Soma Personalizada: " + somaPersonalizada(vetor, inicio, termino));
