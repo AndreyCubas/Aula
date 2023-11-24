@@ -19,8 +19,6 @@ public class trabalho {
             System.out.println("7ª Opção: Média dos valores do Vetor");
             System.out.println("8ª Opção: Maior valor dentro do Vetor");
             System.out.println("9ª Opção: Menor valor dentro do Vetor");
-            System.out.println("Olá git hub");
-            System.out.println("10 opcao ");
             System.out.println("Digite 0 se quiser sair");
             System.out.print("Digite a opção desejada: ");
 
