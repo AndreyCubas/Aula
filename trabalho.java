@@ -20,12 +20,13 @@ public class trabalho {
             System.out.println("8ª Opção: Maior valor dentro do Vetor");
             System.out.println("9ª Opção: Menor valor dentro do Vetor");
             System.out.println("Olá git hub");
+            System.out.println("10 opcao ");
             System.out.println("Digite 0 se quiser sair");
             System.out.print("Digite a opção desejada: ");
 
             int opcao = scanner.nextInt();
             if (opcao == 0) {
-                System.out.printl("Fim do algoritmo!");
+                System.out.println("Fim do algoritmo!");
                 break;
             }
 
